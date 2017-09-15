@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseAuth
 
 class mainVC: UIViewController {
 
@@ -15,15 +15,17 @@ class mainVC: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         loginAnony()
+      
     }
 
  
+
+    
     func loginAnony(){
         Auth.auth().signInAnonymously { (user, error) in
-            
-            if let error !=nil {
+            if error != nil {
                 print("Cannot Login")
-            } else {
+            }else{
                 print("userUID \(user?.uid)")
             }
         }
