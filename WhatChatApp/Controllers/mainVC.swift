@@ -26,6 +26,7 @@ class mainVC: UIViewController,UITableViewDelegate, UITableViewDataSource {
         loginAnony()
       
         self.ref = Database.database().reference()
+        
         tableView.delegate = self
         tableView.dataSource = self
     }
@@ -46,6 +47,41 @@ class mainVC: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
 
     
+    func loadChatRoom(){
+        
+        self.ref.child("chat").queryOrdered(byChild: "postDate").observe( .value, with:
+            { ( snapshot ) in
+                //
+                self.chatInfo.removeAll()
+                
+                if let snapshot =  snapshot.children.allObjects as? [DataSnapshot]{
+                    
+                    for snap in snapshot {
+                        
+                        if let postData = snap.value as? [String:AnyObject]{
+                            
+                            let username = postData["name"] as? String
+                            let text = postData["text"] as? String
+                            
+                            var postDate:CLong?
+                            if let postdateIn = postData["postDate"] as? CLong {
+                                postDate = postdateIn
+                            }
+                            
+                            self.chatInfo.append(Chat(userName: username!, text: text!, datePost: "\(postDate!)"))
+                        }
+                        
+                    }
+                    self.tableView.reloadData()
+                    
+                    let indexpath = IndexPath(row: self.chatInfo.count-1, section: 0)
+                    self.tableView.scrollToRow(at: indexpath, at: .bottom, animated: true)
+                }
+                
+        })
+    }
+    
+    
     func loginAnony(){
         Auth.auth().signInAnonymously { (user, error) in
             if error != nil {
@@ -53,6 +89,7 @@ class mainVC: UIViewController,UITableViewDelegate, UITableViewDataSource {
             }else{
                 if user != nil{
                 print("userUID \(user!.uid)")
+                self.loadChatRoom()
                 }
             }
         }
@@ -60,10 +97,13 @@ class mainVC: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
     //IBActions
     @IBAction func sendBtnPressed(_ sender: Any) {
-        let dic = [ "text" : textFieldName.text ?? "unknow",
-                    "name" : nameUser!,
+        let dic = [ "text" : self.textFieldName.text ?? "unknow",
+                    "name" : self.nameUser!,
                     "postDate" : ServerValue.timestamp()] as [String:Any]
-        self.ref.child("chat").childByAutoId().setValue(dic)    }
+        
+        self.ref.child("chat").childByAutoId().setValue(dic)
+        
+    }
     
 
 }

@@ -17,7 +17,7 @@
 		533D50D01F6BBF1200B23BE1 /* WhatChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50CF1F6BBF1200B23BE1 /* WhatChatAppTests.swift */; };
 		533D50DB1F6BBF1200B23BE1 /* WhatChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50DA1F6BBF1200B23BE1 /* WhatChatAppUITests.swift */; };
 		534D87E41F6BD16100C83C67 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D87E31F6BD16100C83C67 /* LoginVC.swift */; };
-		534D87E91F6BE5DA00C83C67 /* chatRoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D87E81F6BE5DA00C83C67 /* chatRoomCell.swift */; };
+		534D87E91F6BE5DA00C83C67 /* ChatRoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D87E81F6BE5DA00C83C67 /* ChatRoomCell.swift */; };
 		534D87EB1F6BE60200C83C67 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D87EA1F6BE60200C83C67 /* Chat.swift */; };
 		539AD4A81F6BC240008B1A06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533D50EA1F6BC07800B23BE1 /* GoogleService-Info.plist */; };
 		6A035E403C63DF4D004223CC /* Pods_WhatChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C61B578AEE3FD7844AB0AA /* Pods_WhatChatAppUITests.framework */; };
@@ -62,7 +62,7 @@
 		533D50DC1F6BBF1200B23BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		533D50EA1F6BC07800B23BE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		534D87E31F6BD16100C83C67 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		534D87E81F6BE5DA00C83C67 /* chatRoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatRoomCell.swift; sourceTree = "<group>"; };
+		534D87E81F6BE5DA00C83C67 /* ChatRoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomCell.swift; sourceTree = "<group>"; };
 		534D87EA1F6BE60200C83C67 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		5A6A0CC4CC5781CF719E3DFD /* Pods-WhatChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatApp/Pods-WhatChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		633DDBC5CDA85D84197B5852 /* Pods_WhatChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,7 +168,7 @@
 		534D87E61F6BD17500C83C67 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				534D87E81F6BE5DA00C83C67 /* chatRoomCell.swift */,
+				534D87E81F6BE5DA00C83C67 /* ChatRoomCell.swift */,
 				534D87EA1F6BE60200C83C67 /* Chat.swift */,
 			);
 			path = Model;
@@ -488,7 +488,7 @@
 			files = (
 				533D50BA1F6BBF1100B23BE1 /* mainVC.swift in Sources */,
 				534D87EB1F6BE60200C83C67 /* Chat.swift in Sources */,
-				534D87E91F6BE5DA00C83C67 /* chatRoomCell.swift in Sources */,
+				534D87E91F6BE5DA00C83C67 /* ChatRoomCell.swift in Sources */,
 				533D50C01F6BBF1100B23BE1 /* WhatChatApp.xcdatamodeld in Sources */,
 				534D87E41F6BD16100C83C67 /* LoginVC.swift in Sources */,
 				533D50B81F6BBF1100B23BE1 /* AppDelegate.swift in Sources */,
