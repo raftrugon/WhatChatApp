@@ -10,6 +10,7 @@ target 'WhatChatApp' do
   # Pods for WhatChatApp
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   
 
   target 'WhatChatAppTests' do

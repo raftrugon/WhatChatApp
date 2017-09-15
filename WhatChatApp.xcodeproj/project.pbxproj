@@ -16,6 +16,7 @@
 		533D50C51F6BBF1100B23BE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533D50C31F6BBF1100B23BE1 /* LaunchScreen.storyboard */; };
 		533D50D01F6BBF1200B23BE1 /* WhatChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50CF1F6BBF1200B23BE1 /* WhatChatAppTests.swift */; };
 		533D50DB1F6BBF1200B23BE1 /* WhatChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50DA1F6BBF1200B23BE1 /* WhatChatAppUITests.swift */; };
+		534D87E41F6BD16100C83C67 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D87E31F6BD16100C83C67 /* LoginVC.swift */; };
 		539AD4A81F6BC240008B1A06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533D50EA1F6BC07800B23BE1 /* GoogleService-Info.plist */; };
 		6A035E403C63DF4D004223CC /* Pods_WhatChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C61B578AEE3FD7844AB0AA /* Pods_WhatChatAppUITests.framework */; };
 		D5361C9EBBC0E98E9B4052D8 /* Pods_WhatChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633DDBC5CDA85D84197B5852 /* Pods_WhatChatApp.framework */; };
@@ -58,6 +59,7 @@
 		533D50DA1F6BBF1200B23BE1 /* WhatChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatChatAppUITests.swift; sourceTree = "<group>"; };
 		533D50DC1F6BBF1200B23BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		533D50EA1F6BC07800B23BE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		534D87E31F6BD16100C83C67 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		5A6A0CC4CC5781CF719E3DFD /* Pods-WhatChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatApp/Pods-WhatChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		633DDBC5CDA85D84197B5852 /* Pods_WhatChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		768C910717ED4D4A12E39B98 /* Pods-WhatChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatApp/Pods-WhatChatApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,8 +120,10 @@
 		533D50B61F6BBF1100B23BE1 /* WhatChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				534D87E71F6BD18E00C83C67 /* View */,
+				534D87E51F6BD16700C83C67 /* Controllers */,
+				534D87E61F6BD17500C83C67 /* Model */,
 				533D50B71F6BBF1100B23BE1 /* AppDelegate.swift */,
-				533D50B91F6BBF1100B23BE1 /* mainVC.swift */,
 				533D50BB1F6BBF1100B23BE1 /* Main.storyboard */,
 				533D50C11F6BBF1100B23BE1 /* Assets.xcassets */,
 				533D50C31F6BBF1100B23BE1 /* LaunchScreen.storyboard */,
@@ -146,6 +150,29 @@
 				533D50DC1F6BBF1200B23BE1 /* Info.plist */,
 			);
 			path = WhatChatAppUITests;
+			sourceTree = "<group>";
+		};
+		534D87E51F6BD16700C83C67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				534D87E31F6BD16100C83C67 /* LoginVC.swift */,
+				533D50B91F6BBF1100B23BE1 /* mainVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		534D87E61F6BD17500C83C67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		534D87E71F6BD18E00C83C67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		66A98B460E8EF016D5178241 /* Frameworks */ = {
@@ -455,6 +482,7 @@
 			files = (
 				533D50BA1F6BBF1100B23BE1 /* mainVC.swift in Sources */,
 				533D50C01F6BBF1100B23BE1 /* WhatChatApp.xcdatamodeld in Sources */,
+				534D87E41F6BD16100C83C67 /* LoginVC.swift in Sources */,
 				533D50B81F6BBF1100B23BE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
