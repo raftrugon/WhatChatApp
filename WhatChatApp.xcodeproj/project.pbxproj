@@ -16,6 +16,7 @@
 		533D50C51F6BBF1100B23BE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533D50C31F6BBF1100B23BE1 /* LaunchScreen.storyboard */; };
 		533D50D01F6BBF1200B23BE1 /* WhatChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50CF1F6BBF1200B23BE1 /* WhatChatAppTests.swift */; };
 		533D50DB1F6BBF1200B23BE1 /* WhatChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50DA1F6BBF1200B23BE1 /* WhatChatAppUITests.swift */; };
+		539AD4A81F6BC240008B1A06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533D50EA1F6BC07800B23BE1 /* GoogleService-Info.plist */; };
 		6A035E403C63DF4D004223CC /* Pods_WhatChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C61B578AEE3FD7844AB0AA /* Pods_WhatChatAppUITests.framework */; };
 		D5361C9EBBC0E98E9B4052D8 /* Pods_WhatChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633DDBC5CDA85D84197B5852 /* Pods_WhatChatApp.framework */; };
 /* End PBXBuildFile section */
@@ -287,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				533D50C51F6BBF1100B23BE1 /* LaunchScreen.storyboard in Resources */,
+				539AD4A81F6BC240008B1A06 /* GoogleService-Info.plist in Resources */,
 				533D50C21F6BBF1100B23BE1 /* Assets.xcassets in Resources */,
 				533D50BD1F6BBF1100B23BE1 /* Main.storyboard in Resources */,
 			);

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0ABF543FF3A6F7E0A7457FABBF56216C'
+               BlueprintIdentifier = 'F400F26FEA5B04BDAB18B57C5E4880C4'
                BlueprintName = 'Pods-WhatChatApp'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-WhatChatApp.framework'>
