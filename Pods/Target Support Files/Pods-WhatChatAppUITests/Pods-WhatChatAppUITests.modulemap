@@ -1,0 +1,6 @@
+framework module Pods_WhatChatAppUITests {
+  umbrella header "Pods-WhatChatAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

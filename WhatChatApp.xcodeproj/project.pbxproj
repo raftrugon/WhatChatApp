@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396752489BA8CAE14C89A3F7 /* Pods_WhatChatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83D24360DC73522838AE9C8 /* Pods_WhatChatAppTests.framework */; };
 		533D50B81F6BBF1100B23BE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50B71F6BBF1100B23BE1 /* AppDelegate.swift */; };
 		533D50BA1F6BBF1100B23BE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50B91F6BBF1100B23BE1 /* ViewController.swift */; };
 		533D50BD1F6BBF1100B23BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533D50BB1F6BBF1100B23BE1 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		533D50C51F6BBF1100B23BE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533D50C31F6BBF1100B23BE1 /* LaunchScreen.storyboard */; };
 		533D50D01F6BBF1200B23BE1 /* WhatChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50CF1F6BBF1200B23BE1 /* WhatChatAppTests.swift */; };
 		533D50DB1F6BBF1200B23BE1 /* WhatChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D50DA1F6BBF1200B23BE1 /* WhatChatAppUITests.swift */; };
+		6A035E403C63DF4D004223CC /* Pods_WhatChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C61B578AEE3FD7844AB0AA /* Pods_WhatChatAppUITests.framework */; };
+		D5361C9EBBC0E98E9B4052D8 /* Pods_WhatChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633DDBC5CDA85D84197B5852 /* Pods_WhatChatApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10B9B1EDE0C841D2BD765AB1 /* Pods-WhatChatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatAppUITests/Pods-WhatChatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15C61B578AEE3FD7844AB0AA /* Pods_WhatChatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatChatAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF7D189CF1563751EFDEA8B /* Pods-WhatChatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatAppTests/Pods-WhatChatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D62EB21E472D69E55D7D028 /* Pods-WhatChatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatAppUITests/Pods-WhatChatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		533D50B41F6BBF1100B23BE1 /* WhatChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		533D50B71F6BBF1100B23BE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		533D50B91F6BBF1100B23BE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,12 @@
 		533D50D61F6BBF1200B23BE1 /* WhatChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		533D50DA1F6BBF1200B23BE1 /* WhatChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatChatAppUITests.swift; sourceTree = "<group>"; };
 		533D50DC1F6BBF1200B23BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533D50EA1F6BC07800B23BE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A6A0CC4CC5781CF719E3DFD /* Pods-WhatChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatApp/Pods-WhatChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		633DDBC5CDA85D84197B5852 /* Pods_WhatChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C910717ED4D4A12E39B98 /* Pods-WhatChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatApp/Pods-WhatChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		A8E12B57321BDDA6B72A90B0 /* Pods-WhatChatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatChatAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatChatAppTests/Pods-WhatChatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D83D24360DC73522838AE9C8 /* Pods_WhatChatAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatChatAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5361C9EBBC0E98E9B4052D8 /* Pods_WhatChatApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396752489BA8CAE14C89A3F7 /* Pods_WhatChatAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A035E403C63DF4D004223CC /* Pods_WhatChatAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +99,8 @@
 				533D50CE1F6BBF1200B23BE1 /* WhatChatAppTests */,
 				533D50D91F6BBF1200B23BE1 /* WhatChatAppUITests */,
 				533D50B51F6BBF1100B23BE1 /* Products */,
+				EB3086D0B4526F741A737398 /* Pods */,
+				66A98B460E8EF016D5178241 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +123,7 @@
 				533D50C11F6BBF1100B23BE1 /* Assets.xcassets */,
 				533D50C31F6BBF1100B23BE1 /* LaunchScreen.storyboard */,
 				533D50C61F6BBF1100B23BE1 /* Info.plist */,
+				533D50EA1F6BC07800B23BE1 /* GoogleService-Info.plist */,
 				533D50BE1F6BBF1100B23BE1 /* WhatChatApp.xcdatamodeld */,
 			);
 			path = WhatChatApp;
@@ -128,6 +147,29 @@
 			path = WhatChatAppUITests;
 			sourceTree = "<group>";
 		};
+		66A98B460E8EF016D5178241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				633DDBC5CDA85D84197B5852 /* Pods_WhatChatApp.framework */,
+				D83D24360DC73522838AE9C8 /* Pods_WhatChatAppTests.framework */,
+				15C61B578AEE3FD7844AB0AA /* Pods_WhatChatAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB3086D0B4526F741A737398 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A6A0CC4CC5781CF719E3DFD /* Pods-WhatChatApp.debug.xcconfig */,
+				768C910717ED4D4A12E39B98 /* Pods-WhatChatApp.release.xcconfig */,
+				1BF7D189CF1563751EFDEA8B /* Pods-WhatChatAppTests.debug.xcconfig */,
+				A8E12B57321BDDA6B72A90B0 /* Pods-WhatChatAppTests.release.xcconfig */,
+				3D62EB21E472D69E55D7D028 /* Pods-WhatChatAppUITests.debug.xcconfig */,
+				10B9B1EDE0C841D2BD765AB1 /* Pods-WhatChatAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 533D50DF1F6BBF1200B23BE1 /* Build configuration list for PBXNativeTarget "WhatChatApp" */;
 			buildPhases = (
+				4A6039F385A6294959895504 /* [CP] Check Pods Manifest.lock */,
 				533D50B01F6BBF1100B23BE1 /* Sources */,
 				533D50B11F6BBF1100B23BE1 /* Frameworks */,
 				533D50B21F6BBF1100B23BE1 /* Resources */,
+				74742B069AC225C3ABC4FC98 /* [CP] Embed Pods Frameworks */,
+				D924E19CEAC3682E7E8F8B90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 533D50E21F6BBF1200B23BE1 /* Build configuration list for PBXNativeTarget "WhatChatAppTests" */;
 			buildPhases = (
+				9BCF22C96C169E5050780E84 /* [CP] Check Pods Manifest.lock */,
 				533D50C71F6BBF1200B23BE1 /* Sources */,
 				533D50C81F6BBF1200B23BE1 /* Frameworks */,
 				533D50C91F6BBF1200B23BE1 /* Resources */,
+				C3EF2C26B5217D7E8A110091 /* [CP] Embed Pods Frameworks */,
+				27DE2591EF46FDD84D1AADDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 533D50E51F6BBF1200B23BE1 /* Build configuration list for PBXNativeTarget "WhatChatAppUITests" */;
 			buildPhases = (
+				F843021A8D33CC73760EBF99 /* [CP] Check Pods Manifest.lock */,
 				533D50D21F6BBF1200B23BE1 /* Sources */,
 				533D50D31F6BBF1200B23BE1 /* Frameworks */,
 				533D50D41F6BBF1200B23BE1 /* Resources */,
+				B435202D6C38E362238EC476 /* [CP] Embed Pods Frameworks */,
+				91471C8ED5A193CA62797B0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +307,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27DE2591EF46FDD84D1AADDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatChatAppTests/Pods-WhatChatAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6039F385A6294959895504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74742B069AC225C3ABC4FC98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatChatApp/Pods-WhatChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91471C8ED5A193CA62797B0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatChatAppUITests/Pods-WhatChatAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BCF22C96C169E5050780E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B435202D6C38E362238EC476 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatChatAppUITests/Pods-WhatChatAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3EF2C26B5217D7E8A110091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatChatAppTests/Pods-WhatChatAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D924E19CEAC3682E7E8F8B90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatChatApp/Pods-WhatChatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F843021A8D33CC73760EBF99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		533D50B01F6BBF1100B23BE1 /* Sources */ = {
@@ -428,6 +617,7 @@
 		};
 		533D50E01F6BBF1200B23BE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6A0CC4CC5781CF719E3DFD /* Pods-WhatChatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +633,7 @@
 		};
 		533D50E11F6BBF1200B23BE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768C910717ED4D4A12E39B98 /* Pods-WhatChatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +649,7 @@
 		};
 		533D50E31F6BBF1200B23BE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF7D189CF1563751EFDEA8B /* Pods-WhatChatAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +667,7 @@
 		};
 		533D50E41F6BBF1200B23BE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E12B57321BDDA6B72A90B0 /* Pods-WhatChatAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +685,7 @@
 		};
 		533D50E61F6BBF1200B23BE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D62EB21E472D69E55D7D028 /* Pods-WhatChatAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +702,7 @@
 		};
 		533D50E71F6BBF1200B23BE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B9B1EDE0C841D2BD765AB1 /* Pods-WhatChatAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
